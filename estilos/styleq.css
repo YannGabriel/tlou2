@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'text';
+    src: url(../fontes/OldNewspaperTypes.ttf);
+}
+
+@font-face {
+    font-family: 'title';
+    src: url(../fontes/title.ttf);
+}
+
+body{
+    background-color: #000000;
+}
+
+main{
+    background-color: #000000;
+    color: white;
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: auto;
+}
+
+header{
+    height: 100px;
+    background-color: #2e2e2ea1;
+    border-radius: 0px 0px 30px 30px;
+    border: 1.5px solid rgba(163, 163, 163, 0.46);
+}
+
+header h1{
+    padding-top: 10px;
+    color: white;
+    font-size: 80px;
+    justify-content: center;
+}
+
+p{
+    font-family: 'text';
+    font-size: 18px;
+}
+
+audio{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(193, 193, 193, 0.559);
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+    transition: all .7s;
+}
+
+h1, h2, h3, h4{
+    font-family: 'title';
+    text-align: center;
+}
+
+h2{
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-family: 'title';
+}
+
+h3{
+    font-size: 30px;
+    letter-spacing: 1.05px;
+}
+
+h4{
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+h5{
+    font-family: 'title';
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+figure{
+    filter: grayscale(100%);
+    margin: auto;
+    position: relative;
+    display: inline-block;
+}
+
+figure img{
+    box-shadow: 4px 7px 13px 6px black;
+    border-radius: 10px;
+    filter: blur(0.75px);
+}
+
+.texto{
+    color:white;
+    position: absolute;
+    top: 75px;
+    left: 420px;
+    font-family: 'title';
+    font-size: 5rem;
+    text-align: center;
+}
+
+#personagens h3{
+    letter-spacing: 2px;
+}
+
+#personagens h4{
+    letter-spacing: 1px;
+}
+
+.abby, .joel, .ellie{
+    align-items: center;
+}
+
+.joel{
+    margin: 0px 10px 0px 10px;
+}
+
+.principais{
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+.imagens img#ellie{
+    filter: grayscale(35%);
+    border: 0.75px solid rgba(167, 167, 167, 0.409);
+    box-shadow: -5px 7px 16px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.imagens img#joel{
+    filter: grayscale(50%);
+    border: 0.75px solid rgba(167, 167, 167, 0.409);
+    box-shadow: 0px 6px 18px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.imagens img#abby{
+    filter: grayscale(35%);
+    border: 0.75px solid rgba(167, 167, 167, 0.409);
+    box-shadow: 3px 7px 16px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.ellie h4, p{
+    text-align: center;
+}
+
+h4{
+    font-size: 40px;
+}
+.joel h4, p{
+    text-align: center;
+}
+
+img#ellie:hover{
+    transform: scale(1.07);
+    transition: 0.7s;
+}
+
+img#abby:hover{
+    transform: scale(1.07);
+    transition: 0.7s;
+}
+
+img#joel:hover{
+    transform: scale(1.05);
+    transition: all 1s;
+}
+
+.imagens2{
+    width: 275px;
+    width: 100%;
+    text-align: center;
+}
+
+.imagens2 img{
+    border-radius: 5px;
+}
+
+#sec1{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#sec2{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.imagens2{
+    text-align: center;
+    width: 275px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.imagens2-1{
+    text-align: center;
+    width: 275px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.imagens2 img{
+    filter: grayscale(40%);
+    width: 100%;
+    box-shadow: -5px 7px 16px;
+    box-shadow: 0px 4px 9px;
+}
+
+.imagens2-1 img{
+    filter: grayscale(40%);
+    width: 100%;
+    box-shadow: -5px 7px 16px;
+    box-shadow: 0px 4px 9px;
+}
+
+.imagens2 img:hover{
+    transition: all .5s;
+    transform: scale(1.025);
+}
+
+.imagens2-1 img:hover{
+    transition: all 0.5s;
+    transform: scale(1.025);
+}
+
+#lifef{
+    padding: 7.5px;
+    display: inline-block;
+}
+
+#gamef{
+    padding: 7.5px;
+    display: inline-block;
+}
+
+#field{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+ #field img{
+    width: 210px;
+    border-radius: 15px;
+}
+
+#pier{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    margin: auto;
+}
+
+#pier img{
+    width: 210px;
+    border-radius: 10px;
+}
+
+.pier-game{
+    padding: 7.5px;
+    display: inline-block;
+}
+
+.pier-life{
+    padding: 7.5px;
+    display: inline-block;
+}
+
+iframe{
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: 0.75px solid rgba(167, 167, 167, 0.409);
+}
+
+.historia img{
+    filter: grayscale(20% );
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    justify-content: center;
+    display: flex;
+}
+
+
+#mortes img{
+    width: 400px;
+    height: 300px;
+}
+
+#mortes h5{
+    text-align: center;
+}
+
+footer{
+    background-color: rgba(97, 97, 97, 0.845);
+    width: 100%;
+    height: 300px;
+}
